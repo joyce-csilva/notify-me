@@ -17,15 +17,18 @@ form {
 .button {
 
     width: 100%;
-    padding: 15px;
+    padding: 20px;
     border: none;
-    border-radius: 5px;
-    margin-top: 15px;
-    background-color: #32cd32cb;
+    border-radius: 10px;
+    margin-top: 25px;
+    background-color: #04AA6D;
     color: #f8f8f8;
+   
+
+
 }
 
 .button:hover {
-    background-color: #499a7b;
+    background-color: #5e9b84;
     
 }
