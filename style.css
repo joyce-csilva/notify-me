@@ -1,3 +1,15 @@
+h1 {
+    font-family:ink free;
+    font-size: 150%;
+    text-align:center;
+  }
+  p {
+    color: black;
+    font-family:ink free;
+    font-size: 100%;
+    text-align:center;
+  }
+  
 form {
     background-color: #f8f8f8;
     width: 300px;
@@ -14,7 +26,8 @@ form {
 }
 
 
-.button {
+.button 
+    {
 
     width: 100%;
     padding: 20px;
@@ -23,10 +36,8 @@ form {
     margin-top: 25px;
     background-color: #04AA6D;
     color: #f8f8f8;
-   
-
-
-}
+    font-family: ink free;
+   }
 
 .button:hover {
     background-color: #5e9b84;
