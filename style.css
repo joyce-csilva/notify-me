@@ -1,45 +1,48 @@
-h1 {
-    font-family:ink free;
-    font-size: 150%;
-    text-align:center;
-  }
-  p {
-    color: black;
+.box {
+  width: 200px;
+  height: 300px;
+  padding: 2px;
+  margin: 10% auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f8f8f8;
+}
+
+p {
+    color: rgb(102, 100, 100);
     font-family:ink free;
     font-size: 100%;
-    text-align:center;
-  }
-  
-form {
-    background-color: #f8f8f8;
-    width: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
-}
-
-.input {
-    width: 100%;
+    text-align: center;
     padding: 5px;
-    border-radius: 5px;
-    border: 1px solid;
-}
+   
+  }
+
+p#horario{
+  font-size: 150%;
+  font-weight: bold;  
+  }
 
 
-.button 
-    {
-
-    width: 100%;
-    padding: 20px;
+button {
+    width: 50%;
+    padding: 9px;
     border: none;
-    border-radius: 10px;
-    margin-top: 25px;
+    border-radius: 42px;
+    margin-top: 20px;
     background-color: #04AA6D;
     color: #f8f8f8;
     font-family: ink free;
-   }
+    text-align: center;
+  }
 
-.button:hover {
+button:hover {
     background-color: #5e9b84;
     
-}
+  }
+  .button > a {
+    color: #fff;
+    text-decoration: none;
+    
+
+  }
+
