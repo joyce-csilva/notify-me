@@ -1,24 +1,31 @@
 * {
-  margin: 5 10 5 10;
-  padding: 0;
+  margin-top: 10;  
+  padding: 20;
   box-sizing: border-box;
   font-family: ink free;
   text-align: center;
   border: #04AA6D;
 }
 body {
-    width: 100%;
-    border: 10;
-    color: rgb(102, 100, 100);
-    background-color: #f8f8f8;
-    position: fixed;
+  
+  border: 10;
+  color: rgb(102, 100, 100);
+  background-color: #f8f8f8;
+ 
+  display: flex;
     
+}
+#horario{
+  font-weight: 600;
+}
+
+#registro{
+  font-style: italic;
 }
 button {
 
   padding: 16px 24px;
   border-radius: 8px;
-  border: none;
   background-color: #04AA6D;
   color: white;
   gap: 12px;
@@ -31,3 +38,8 @@ button:hover {
   .button > a {
     color: #fff;  
   }
+  
+  @media (max-width: 570px) {
+    button div {
+      display: none;
+    }
