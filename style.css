@@ -1,12 +1,20 @@
-.box {
-  width: 200px;
-  height: 300px;
-  padding: 2px;
-  margin: 10% auto;
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #f8f8f8;
+* {
+  margin: 0 5;
+  padding: 0;
+  align-items: center;
+
 }
+
+
+body {
+    width: 500px;
+    padding: 2px;
+    margin: 20 auto;
+    border: 1px solid #858787;
+    justify-content: center;
+    background-color: #f8f8f8;
+    flex-wrap: wrap;
+  }
 
 p {
     color: rgb(102, 100, 100);
@@ -14,25 +22,25 @@ p {
     font-size: 100%;
     text-align: center;
     padding: 5px;
-   
+     
   }
 
 p#horario{
-  font-size: 150%;
-  font-weight: bold;  
+    font-size: 150%;
+    font-weight: bold;  
   }
 
 
-button {
+  .button {
+    border: none;
     width: 50%;
     padding: 9px;
-    border: none;
-    border-radius: 42px;
-    margin-top: 20px;
+    border-radius: 14px;
     background-color: #04AA6D;
     color: #f8f8f8;
     font-family: ink free;
-    text-align: center;
+    align-self: center;    
+  
   }
 
 button:hover {
