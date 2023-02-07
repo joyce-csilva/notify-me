@@ -20,11 +20,3 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 
 - [Acesse o projeto finalizado, online](https://joyce-csilva.github.io/notify-me/)
-
-
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK] <br> ((inserir link da imagem))
-
-
-
