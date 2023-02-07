@@ -20,12 +20,18 @@ body {
 
  }
 
+form {
+  display: flex;
+  align-items: center;
+  height: 25vh;
+ 
+}
+
 div#title{
   text-align: left;
   font-size: 17px;
   border: gray;
 
-  
 
 }
 
@@ -37,6 +43,15 @@ button#close{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
+}
+
+div#clock-wrap{
+  width: 150px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
 
 }
 
@@ -65,6 +80,13 @@ p#horario{
     font-weight: bold;  
   }
 
+  div#data{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 
 p#lastrecord{
    padding: 15px;
@@ -79,7 +101,7 @@ p#lastrecord{
     background-color: #04AA6D;
     color: #f8f8f8;
     font-family: ink free; 
-    position: relative; left: 50%; transform: translate(-50%);
+    
   
   }
 
